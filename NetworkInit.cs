@@ -10,8 +10,8 @@ public class NetworkInit : Bolt.GlobalEventListener {
 	{
 		BoltNetwork.RegisterTokenClass<PlayerToken>();
 		BoltNetwork.RegisterTokenClass<UserToken>();
-        BoltNetwork.RegisterTokenClass<BulletToken>();
-        BoltNetwork.RegisterTokenClass<DeathPrefabToken>();
-        BoltNetwork.RegisterTokenClass<AudioLibraryToken>();
+        	BoltNetwork.RegisterTokenClass<BulletToken>();
+        	BoltNetwork.RegisterTokenClass<DeathPrefabToken>();
+        	BoltNetwork.RegisterTokenClass<AudioLibraryToken>();
 	}
 }
