@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MultiplayerPlayerRegistery  
 {
-	// keeps a list of all the private void OnPlayerDisconnected(NetworkPlayer player) {
+	// keeps a list of all the private void OnPlayerDisconnected(NetworkPlayer player)
 	static List<MultiplayerPlayerObject> players = new List<MultiplayerPlayerObject>();
 	
 	// create a player for a connection
